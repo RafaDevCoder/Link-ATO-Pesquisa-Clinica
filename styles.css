@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Marcellus&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fdfafa;
+    background-image: url('./img/FUNDO-ATO2.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 80%;
+    height:150px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    position: absolute;
+    width: 98px;
+    height:98px;
+    top: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: #00000099;
+    margin-top: 5px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    color: #334f96;
+    letter-spacing: 1px;
+}
+
+.ato {
+    color: #515355;
+}
+
+.btn {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+   
+}
+
+.btn1 {
+    display: flex;
+    background: linear-gradient(45deg, #74ade6, #0999c3 );
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;   
+    padding: 10px 20px;
+    font-size: 16px;
+    width: auto; /* Garante que o botão ajuste ao conteúdo */
+    max-width: 100%;
+}
+
+a{
+
+    display: flex;
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    font-size: 1.4em;
+    flex-wrap: wrap;
+    padding: 12px 44px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin: auto;
+ }
+
+ /* REDES  SOCIAIS */
+
+ .redes {
+  margin-top:10px;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 2rem 3rem;
+ }
+
+ ul{
+  display: flex;
+  padding:0px;
+ }
+
+ a {
+  padding:15px;
+ }
+
+
+
+/* RESPONSIVO MOBILE */
+/* Ajustes para telas menores */
+@media (max-width:1150px) {
+    .btn1 {
+        width: 90%
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .btn1  {
+     width: 90%
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
+  
+  @media (max-width: 322px) {
+    .btn1  {
+     width: 90%;
+      font-size: 10px;
+      padding: 4px 10px;
+    }
+  }
+  @media (max-width: 604px) {
+    .btn1  {
+     width: 90%;
+      font-size:12px;
+      padding: 4px 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    .btn1  {
+     width: 90%;
+      font-size:10px;
+      padding: 2px 8px;
+    }
+  }
+  @media (max-width: 320px) {
+    .title h1 {
+      font-size:17px;
+      color: #334f96;
+      margin-top: 20px;
+      margin-bottom: -10px;
+    }
+
+     & a {
+       margin-top: 5px;
+    } 
+  }
+  @media (max-width: 375px) {
+    .title h1 {
+      font-size:17px;
+      color: #334f96;
+      margin-top: 20px;
+      margin-bottom: -10px;
+    }
+
+    & h2{
+      font-size:13px;
+    }
+
+    & a {
+      padding: 10px 15px 40px 15px;
+    } 
+    
+  }
+  @media (max-width: 425px) {
+    .title h1 {
+      font-size:17px;
+      color: #334f96;
+      margin-top: 20px;
+      margin-bottom: -10px;
+    }
+
+    & h2{
+      font-size:13px;
+    }
+
+  }
+  @media (max-width: 768px) {
+    .title h1 {
+      font-size:17px;
+      color: #334f96;
+      margin-top: 20px;
+      margin-bottom: -10px;
+    }
+
+    & h2{
+      font-size:13px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .title h1 {
+      font-size:17px;
+      color: #334f96;
+      margin-top: 20px;
+      margin-bottom: -10px;
+    }
+
+    & h2{
+      font-size:13px;
+    }
+  }
+
+  @media (max-width: 336px) {
+    .btn1  {
+     width: 90%;
+      font-size:10px;
+      padding: 2px 8px;
+      margin-bottom: 10px;
+    }
+  }
+
+
+ 
